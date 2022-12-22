@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    text-align: center;
+}
+
+/* SECTION TITULO */
+
+section.titulo{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.titulo h1{
+    font-size: 32px;
+}
+
+/* SECTION HTML */
+
+section.html{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.html .htmlTitulo{
+    width: 100%;
+}
+
+section.html .htmlContent{
+    width: 100%;
+    padding: 20px 2%;
+}
+
+section.html .htmlContent p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+/* SECTION LINK  */
+
+section.link{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.link .infoLink{
+    width: 100%;
+    padding: 20px 2%;
+}
+
+section.link .infoLink p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+section.link .infoLink a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+section.link .infoContent{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.link .infoContent p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+/* SECTION INTRODUCAOHTML */
+
+section.introducaoHtml{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.introducaoHtml .introducaoTitulo{
+    width: 100%;
+    padding: 20px 2%;
+}
+
+section.introducaoHtml .introducaoContent{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.introducaoHtml .introducaoContent p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+section.introducaoHtml .introducaoContent a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* SECTION ESTRUTURA */
+
+section.estrutura{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.estrutura .estruturaHtml{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.estrutura .estruturaHtml p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+section.estrutura .estruturaHtml xmp{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+section.estrutura .estruturaImg{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.estrutura .estruturaImg img{
+    float: left;
+}

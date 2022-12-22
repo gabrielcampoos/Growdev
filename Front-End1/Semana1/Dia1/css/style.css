@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    width: 100%;
+}
+
+header .apresentacao{
+    width: 100%;
+    height: 154px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.fotoApresentacao{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.fotoApresentacao img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.textoApresentacao{
+    width: 70%;
+    float: left;
+    line-height: 154px;
+}
+
+.info .container strong{
+    font-size: 20px;
+}
+
+.info .container span{
+    font-size: 20px;
+}
+
+section.info{
+    max-width: 1200px;
+    margin: 0 auto;
+}
