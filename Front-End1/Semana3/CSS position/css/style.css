@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 200%;
+    background-color: gray;
+}
+
+.boxBlue{
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+    padding: 20px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxRed{
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxBlack{
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxGreen{
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxYellow{
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.separacao{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+}
+
+.positionDiv{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 100%;
+}
+
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.separacao-2{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 161.5%;
+}
+
+.chat-1{
+    width: 90%;
+    height: 100px;
+    margin: 30px 0;
+    padding: 0 30px;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 167%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.chat-1 p{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.chat-2{
+    width: 90%;
+    height: 100px;
+    margin: 30px 0;
+    padding: 10px 30px;
+    background-color: black;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 2px solid red;
+}
+
+.chat-2 p{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.separacao-2{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 161.4%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 10px 2px #ccc;
+}
+
+.flex{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-1-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxOne{
+    width: 100px;
+    height: 100px;
+    margin: 8px 8px 8px 8px;
+    background-color: black;
+}
+
+.boxTwo{
+    width: 100px;
+    height: 100px;
+    margin: 8px 8px 8px 0;
+    background-color: black;
+}
+
+.boxThree{
+    width: 100px;
+    height: 100px;
+    margin: 8px 0 0 0;
+    background-color: black;
+}
+
+.box-2-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxFour{
+    width: 100px;
+    height: 100px;
+    margin: 0 8px 8px 8px;
+    background-color: black;
+}
+
+.boxFive{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.box-3-content{
+    width: 100%;
+}
+
+.boxSix{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 8px;
+    background-color: black;
+}
+
+/* FLEX 2 */
+
+.flex-2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box-4-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    margin: 8px 8px 8px 0;
+    background-color: black;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    margin: 8px 8px 8px 0;
+    background-color: black;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    margin: 8px 8px 8px 0;
+    background-color: black;
+}
+
+.box-5-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    margin: 8px 8px 0 8px;
+    background-color: black;
+}
+
+.box5{
+    width: 100px;
+    height: 100px;
+    margin: 8px 0 0 8px;
+    background-color: black;
+}
+
+.box-6-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box6{
+    width: 100px;
+    height: 100px;
+    margin: 8px 8px 0 8px;
+    background-color: black;
+}

@@ -147,3 +147,50 @@ section.estrutura .estruturaImg{
 section.estrutura .estruturaImg img{
     float: left;
 }
+
+/* SECTION SEMANTICA */
+
+section.semantica{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.semantica .semanticaContent{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.semantica .semanticaContent p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+section.semantica .semanticaContent a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+section.semantica .semanticaImg{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+section.semantica .semanticaImg img{
+    padding: 20px 2%;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 2%;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}

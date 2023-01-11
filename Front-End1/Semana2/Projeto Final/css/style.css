@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    width: 100%;
+    max-width: 1200px;
+    height: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    width: 20%;
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #ccc;
+}
+
+header .perfilImg{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+header .perfilImg img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .menu{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+header .menu ul{
+    list-style-type: none;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .menu ul li{
+    padding: 10px 0;
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+
+main{
+    width: 100%;
+}
+
+section.content{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.content .perfilContent{
+    width: 100%;
+}
+
+section.content .perfilContent h1{
+    font-size: 30px;
+    padding: 20px 20px;
+}
+
+section.content .perfilContent a{
+    text-decoration: none;
+}
+
+section.content .perfilContent p{
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.perfilDesc{
+    width: 100%;
+}
+
+.perfilDesc p{
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.perfilLink{
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.perfilLink .btnLinkedIn{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    border: none;
+    background-color: transparent;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/179/179330.png");
+    background-position: 100% 100%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.perfilLink .btnGithub{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    border: none;
+    background-color: transparent;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+    background-position: 100% 100%;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.conhecimentosContent{
+    width: 100%;
+}
+
+.conhecimentosContent p{
+    font-size: 30px;
+    padding: 10px 90px;
+}
+
+.objetivosContent{
+    width: 100%;
+}
+
+.objetivosContent p{
+    font-size: 30px;
+    padding: 10px 90px;
+}
+
+.menu a.linkAtivo{
+    color: blue;
+}
