@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+    <meta name="keywords" content="sistema, lista, programacao, html, css, javascript">
+    <meta name="author" content="Gabriel">
+    <meta name="description" content="avaliação final">
+    <meta name="refresh" content="60">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Criar Conta</title>
+</head>
+<body>
+
+    <main>
+
+        <section class="recados">
+
+            <div class="meusRecados">
+                <h1>Meus Recados</h1>
+            </div><!-- meusRecados -->
+
+            <div class="inputFlex">
+                <input id="inputDesc" type="text" name="descricao" placeholder="Descrição" />
+                <input id="inputDetail" type="text" name="detalhamento" placeholder="Detalhamento" />
+                <input id="save" type="button" name="acao" value="Salvar" />
+            </div><!-- inputFlex -->
+
+        </section><!-- criarConta -->
+
+        <section class="list">
+
+            <div class="infoRecados">
+                <h3>#</h3>
+                <h3>Descrição</h3>
+                <h3>Detalhamento</h3>
+                <h3>Ação</h3>
+            </div><!-- infoRecados -->
+
+           <ul id="listaTarefas"></ul><!-- listaTarefas -->
+           
+           <div id="janelaEdicao">
+            <button id="btnFechar">X</button><!-- btnFechar -->
+            <h2 id="idTarefaEdicao">#1021</h2>
+            <hr>
+            <form>
+                <div class="frm-linha">
+                    <label for="nome">Descrição</label>
+                    <input type="text" id="tarefaEdicao">
+                </div><!-- frm-linha -->
+
+                <div class="frm-linha">
+                    <label for="nome">Detalhamento</label>
+                    <input type="text" id="tarefaEdicaoDetalhamento">
+                </div><!-- frm-linha -->
+
+                <div class="frm-linha">
+                    <button id="btnAtualizarTarefa">Salvar</button>
+                </div><!-- frm-linha -->
+            </form>
+           </div><!-- janelaEdicao -->
+
+           <div id="janelaEdicaoFundo"></div><!-- janelaEdicaoFundo -->
+
+        </section><!-- list -->
+
+    </main>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

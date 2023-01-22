@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/* SECTION LOGIN */
+
+section.login{
+    width: 100%;
+    height: 900px;
+    padding: 20px 2%;
+    display: flex;
+    align-items: center;
+}
+
+.imgLogin{
+    width: 60%;
+    height: 100%
+}
+
+.imgLogin img{
+    width: 100%;
+    height: 100%
+}
+
+.contaLogin{
+    width: 40%;
+    height: 100%;
+}
+
+.contaLogin h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(59, 111, 152, 1);
+    position: relative;
+    top: 50%;
+}
+
+.userPass{
+    width: 100%;
+    padding: 30px 2%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+}
+
+.userPass input[type="text"]{
+    width: 50%;
+    height: 40px;
+    padding: 8px 0;
+    margin: 0px 8px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.userPass input[type="text"]:focus{
+    outline: 0;
+}
+
+.userPass input[type="password"]{
+    width: 50%;
+    height: 40px;
+    padding: 8px 0;
+    margin: 0px 8px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.userPass input[type="password"]:focus{
+    outline: 0;
+}
+
+.loginInp{
+    width: 100%;
+    padding: 10px 2%;
+    position: relative;
+    top: 50%;
+}
+
+.loginInp input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(59, 111, 152, 1);
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+
+.loginInp input[type="submit"]:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    transition: 1s;
+}
+
+.criarConta{
+    width: 100%;
+    padding: 40px 2%;
+    text-align: center;
+    position: relative;
+    top: 65%;
+}
+
+.criarConta a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(59, 111, 152, 1);
+}
+
+/* CRIAR CONTA  */
+
+section.criarConta{
+    width: 100%;
+    height: 900px;
+    padding: 20px 2%;
+    display: flex;
+    align-items: center;
+}
+
+.imgLogin{
+    width: 60%;
+    height: 100%
+}
+
+.imgLogin img{
+    width: 100%;
+    height: 100%
+}
+
+form{
+	width: 40%;
+	height: 100%;
+}
+
+form > .contaLogin{
+    width: 100%;
+    height: 100%;
+}
+
+form > .contaLogin h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(59, 111, 152, 1);
+    position: relative;
+    top: 40%;
+}
+
+.userPass.criar{
+    width: 100%;
+    padding: 30px 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+}
+
+#user{
+    width: 50%;
+    height: 40px;
+    padding: 8px 0;
+    margin: 8px 8px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+#user:focus{
+    outline: 0;
+}
+
+#password{
+    width: 50%;
+    height: 40px;
+    padding: 8px 0;
+    margin: 8px 8px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+#password:focus{
+    outline: 0;
+}
+
+#rePassword{
+    width: 50%;
+    height: 40px;
+    padding: 8px 0;
+    margin: 8px 8px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+#rePassword:focus{
+    outline: 0;
+}
+
+form > .loginInp{
+    width: 100%;
+    padding: 10px 2%;
+    position: relative;
+    top: 40%;
+}
+
+form > .loginInp input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(59, 111, 152, 1);
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+
+form > .loginInp input[type="submit"]:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    transition: 1s;
+}
+
+/* RECADOS */
+
+section.recados{
+    width: 100%;
+    height: 200px;
+    max-width: 1600px;
+    margin: 30px auto;
+    padding: 10px 2%;
+}
+
+.meusRecados{
+    width: 100%;
+    padding: 10px 2%;
+}
+
+.meusRecados h1{
+    font-size: 50px;
+}
+
+.inputFlex{
+    width: 100%;
+    padding: 10px 2%;
+    display: flex;
+}
+
+.inputFlex input[type="text"]{
+    width: 40%;
+    padding: 8px 15px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.inputFlex input[type="text"]:focus{
+    outline: 0;
+}
+
+.inputFlex input[type="button"]{
+    width: 10%;
+    padding: 8px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.inputFlex input[type="button"]:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    transition: 1s;
+}
+
+/* LIST */
+
+section.list{
+    width: 100%;
+    height: 1200px;
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 10px 2%;
+}
+
+.infoRecados{
+    width: 89%;
+    padding: 10px 2%;
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px 0px #03e9f4;;
+}
+
+.infoRecados h3{
+    width: 22.3%;
+}
+
+.infoRecados h3:nth-of-type(3){
+    text-align: center;
+}
+
+.infoRecados h3:nth-of-type(4){
+    text-align: right;
+    padding-right: 15px;
+}
+
+#listaTarefas{
+    width: 89%;
+    padding: 10px 2%;
+    border: 1px solid #ccc;
+    list-style-type: none;
+}
+
+#listaTarefas li{
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.idTarefa{
+    width: 10%;
+}
+
+.textoTarefa{
+    width: 40%;
+}
+
+.detailTarefa{
+    width: 30%;
+}
+
+.acao{
+    width: 5%;
+    font-size: 15px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin-right: 50px;
+}
+
+.acaoRed{
+    width: 5%;
+    font-size: 15px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.acao:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    transition: 1s;
+}
+
+.acaoRed:hover{
+    background: #ff0000;
+    color: #050801;
+    box-shadow: 0 0 5px #ff0000,
+                0 0 5px #ff0000,
+                0 0 5px #ff0000,
+                0 0 5px #ff0000;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    transition: 1s;
+}
+
+#janelaEdicao {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #191818;
+    border: 1px solid #2f2e2e; 
+    width: 415px;
+    border-radius: 12px;
+    z-index: 200;
+    display: none;
+}
+
+#janelaEdicao.abrir{
+    display: block !important;
+    color: #fff;
+}
+
+#janelaEdicaoFundo {
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 100;
+    right: 0;
+    display: none;
+}
+
+#janelaEdicaoFundo.abrir {
+    display: block !important;
+}
+
+#btnFechar {
+    position: absolute;
+    top: -25px;
+    right: -18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #2d2c2c;
+    background-color: #2d2c2c;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.frm-linha {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.frm-linha label {
+    margin-bottom: 7px;
+}
+
+.frm-linha input {
+    padding: 15px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid #191818;
+    font-size: 1.2rem;
+    background-color: #2d2c2c;
+    color: #fff;
+}
+
+.frm-linha button{
+    background-color: #2d2c2c;
+    border: 1px solid #191818;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: #ccc;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.frm-linha button:hover {
+    background-color: #3c3a3a;
+}
