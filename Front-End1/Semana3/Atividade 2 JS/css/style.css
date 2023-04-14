@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 2%;
+    background-color: #5c5c5c;
+}
+
+#ex1 {
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex2 {
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex3 {
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex4 {
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex5 {
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex6 {
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex7 {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex7 span {
+    font-size: 23px;
+    margin-left: 100px;
+    color: white;
+}
+
+#inputEx7 {
+    width: 10%;
+    height: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    outline: 0;
+}
+
+#ex7Text {
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    background-color: #1a1a1a;
+}
+
+#btnEx7 {
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#ex8 {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex8 input {
+    width: 20%;
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 62px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    outline: 0;
+}
+
+#btnEx8 {
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#ex9 {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex9 input {
+    width: 20%;
+    height: 20px;
+    margin-right: 62px;
+    margin-left: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    outline: 0;
+}
+
+#btnEx9 {
+    width: 100px;
+    height: 20px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#ex10 {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+}
+
+#ex10 input {
+    width: 20%;
+    height: 20px;
+    margin-right: 62px;
+    margin-left: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    outline: 0;
+}
+
+#alfabetizacao{
+    width: 15%;
+    height: 20px;
+    margin-right: 62px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    outline: 0;
+}
+
+#alfabetizacaoOpt {
+    display: none;
+}
+
+#opt1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#opt2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btnEx10 {
+    width: 100px;
+    height: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}

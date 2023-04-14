@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form method="post">
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong></legend>
+
+            <label for="name">Nome: </label>
+            <input type="text" name="nome" id="nome" required>
+            <br><br>
+            <label for="endereco">Endereço: </label>
+            <input type="text" name="endereco" id="endereco" required>
+            <br><br>
+            <label for="cidade">Cidade: </label>
+            <input type="text" name="cidade" id="cidade" required>
+            <br><br>
+
+            <label for="estado">Estado: </label>
+            <select name="estado" id="estado" required>
+                <option selected>São Paulo</option>
+                <option>Goias</option>
+                <option>Paraná</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <br><br>
+
+    <form method="post">
+        <fieldset>
+            <legend><strong>Dados Profissionais</strong></legend>
+
+            <h4>Natureza do cargo</h4>
+            <input type="radio" name="cargo" id="cargo" value="Gerência" checked>
+            <label for="cargo">Gerência</label>
+            <input type="radio" name="cargo" id="cargo" value="Financeiro">
+            <label for="cargo">Financeiro</label>
+            <input type="radio" name="cargo" id="cargo" value="Recepção">
+            <label for="cargo">Recepção</label>
+            <input type="radio" name="cargo" id="cargo" value="Administrativo">
+            <label for="cargo">Administrativo</label>
+            <input type="radio" name="cargo" id="cargo" value="Jurídico">
+            <label for="cargo">Jurídico</label>
+            <br><br>
+
+            <h4>Área de interesse</h4>
+            <input type="checkbox" name="interesse" id="interesse" value="Computação">
+            <label for="interesse">Computação</label>
+            <input type="checkbox" name="interesse" id="interesse" value="Biologia">
+            <label for="interesse">Biologia</label>
+            <input type="checkbox" name="interesse" id="interesse" value="Meio ambiente">
+            <label for="interesse">Meio ambiente</label>
+            <input type="checkbox" name="interesse" id="interesse" value="Engenharia">
+            <label for="interesse">Engenharia</label>
+            <input type="checkbox" name="interesse" id="interesse" value="História">
+            <label for="interesse">História</label>
+            <br><br>
+
+            <label for="miniCurriculo">Mini-currículo: </label>
+            <textarea name="miniCurriculo" id="miniCurriculo" cols="70" rows="7" placeholder="Opcional"></textarea>
+        </fieldset>
+        <br><br>
+
+        <button type="button" id="enviar">Enviar</button>
+        <button type="button" id="limpar">Limpar</button>
+    </form>
+
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+section.sessao1{
+    width: 100vw;
+    height: 30vh;
+    background-color: #ccc;
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orange{
+    width: 10vw;
+    height: 10rem;
+    background-color: orange;
+    border-radius: 100%;
+}
+
+.blue{
+    width: 10vw;
+    height: 10rem;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+section.sessao2{
+    width: 100vw;
+    height: 50vh;
+    background-color: #ccc;
+}
+
+.containerOrange{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+}
+
+.containerBlue{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.blueBox{
+    width: 10vw;
+    height: 10rem;
+    background-color: blue;
+}
+
+/* SECTION HTML */
+
+section.html{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(95, 95, 252);
+    display: flex;
+}
+
+.logo{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+.corpo{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerHtml{
+    width: 100vw;
+    height: 100vh;
+    max-width: 50vw;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerHtml h1{
+    font-size: 30px;
+    color: rgb(51, 51, 148);
+}
+
+.containerHtml p{
+    font-size: 20px;
+    color:#7c7c7c;
+}
+
+.button-row{
+    display: flex; 
+    margin-top: 3rem;
+}
+
+.face{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(95, 95, 252);
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: .1rem;
+}
+
+.google{
+    width: 20rem;
+    margin-left: 5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(95, 95, 252);
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: .1rem;
+}
+
+#address{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding-right: 13rem;
+}
+
+fieldset{
+    width: 100%;
+    height: 5vh;
+    border-radius: .5rem;
+    margin-top: 3rem;
+}
+
+legend{
+    margin-left: 2rem;
+}
+
+input[type="email"]{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+input[type="password"]{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    height: 3rem;
+    background-color:rgb(95, 95, 252);
+    color:#fff;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+span{
+    color:#7c7c7c;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
